@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dpv11j445y56g"]
+
+[ext_resource type="Script" uid="uid://cgko0wm3xbcko" path="res://goldtester.gd" id="1_uhqqe"]
+
+[node name="TestScene" type="Node2D" unique_id=583541122]
+
+[node name="Label" type="Label" parent="." unique_id=1078902475]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_uhqqe")

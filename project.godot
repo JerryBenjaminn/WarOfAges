@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="WarOfAges"
+run/main_scene="uid://dpv11j445y56g"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*uid://h1rirp2246ax"
 
 [physics]
 
