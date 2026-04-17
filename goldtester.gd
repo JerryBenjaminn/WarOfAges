@@ -1,4 +1,3 @@
-# GoldTester.gd
 extends Label
 
 func _ready() -> void:

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://bbdil5evs808m"]
+
+[ext_resource type="Script" uid="uid://d27srvup54kqf" path="res://UnitData.gd" id="1_bxehx"]
+
+[resource]
+script = ExtResource("1_bxehx")
+color = Color(0.63529414, 0, 0, 1)
+metadata/_custom_type_script = "uid://d27srvup54kqf"
