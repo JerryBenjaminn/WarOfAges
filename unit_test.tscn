@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dnqmaaa1lmylx"]
+
+[ext_resource type="Script" uid="uid://dvvowtdviog38" path="res://unit_test.gd" id="1_irko1"]
+[ext_resource type="PackedScene" uid="uid://c82kj2r4oi03n" path="res://unit.tscn" id="2_hjrbn"]
+[ext_resource type="Resource" uid="uid://des2tq53248v5" path="res://resources/units/caveman.tres" id="3_uo7w2"]
+[ext_resource type="Resource" uid="uid://bbdil5evs808m" path="res://resources/units/caveman_enemy.tres" id="4_7jalj"]
+
+[node name="UnitTest" type="Node2D" unique_id=217124104]
+script = ExtResource("1_irko1")
+unit_scene = ExtResource("2_hjrbn")
+player_data = ExtResource("3_uo7w2")
+enemy_data = ExtResource("4_7jalj")
